@@ -7,6 +7,7 @@ namespace lab.Models
 {
     public class labData
     {
+        public Guid Id { get; set; } = Guid.Empty;
         public string name { get; set; } // Название книги
         public string author { get; set; } // Автор
         public string publ { get; set; } // Издательство
