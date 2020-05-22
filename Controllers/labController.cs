@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Net;
+using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using lab.Models;
 using lab.Storage;
@@ -10,11 +12,10 @@ namespace lab.Controllers
    [ApiController]
    public class LabController : ControllerBase
    {
-       private static IStorage<labData> _memCache = new MemCache();
-       [HttpGet]
-       public ActionResult<IEnumerable<labData>> Get()
+       private IStorage<labData> _memCache;
+       public LabController(IStorage<labData> memCache)
        {
-           return Ok(_memCache.All);
+           _memCache = memCache;
        }
        [HttpGet("{id}")]
        public ActionResult<labData> Get(Guid id)
