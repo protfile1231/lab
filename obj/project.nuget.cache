@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4MuUMyrSq3BHdCiJECjW6a+uNBj+gB4EXyyuehsc6jLs26Yj/vQXAJLCT+7J2HbuVzYnrAM22HLXFD1PIef3XA==",
+  "dgSpecHash": "sksCf1vCkl2X/WAxDxAaoqqYbEx4va7/+TLNpXA7qv2eVum9+n7SXDNh06aS0XzJiM0nD4hueCAysO+SEL/DVw==",
   "success": true,
-  "projectFilePath": "I:\\Pis\\lab\\lab.csproj",
+  "projectFilePath": "C:\\Users\\User\\lab\\lab.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Ifafa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\gitversiontask\\5.3.7\\gitversiontask.5.3.7.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
